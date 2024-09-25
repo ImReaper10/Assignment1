@@ -1,0 +1,200 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 5px solid rgb(238, 238, 34);
+    padding-bottom: 50px;
+    padding-top: 2px;
+}
+
+
+
+
+.name{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+
+.name h1{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.name p{
+    font-size: 16px;
+    margin: 5px 0 0 0;
+}
+
+
+
+
+.contact-info {
+   
+    text-align: right;
+}
+
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+
+
+
+.email {
+    color: rgb(0, 123, 255);
+}
+
+
+
+
+/*=======================================================*/
+.profile-section{
+    display: flex;
+    padding: 10x;
+    align-items: flex-start ;
+}
+.profile-header {
+    font-style: italic;
+    font-weight: bold;
+    width: 400px;
+    padding-right: 10px;
+    display: flex;
+    align-items: flex-start;
+}
+.paragraph p {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+   
+}
+/*======================================================= */
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    width: 50%;
+    height: 10in;
+    margin: auto;
+    padding: 1in;
+    box-shadow: 0 0 10px grey;
+    background-color: white;
+   
+}
+
+
+/*=======================================================  */
+.experience-section {
+    display: flex;
+   
+    border-top: 2px solid black;
+    padding: 10px 0;
+    align-items: flex-start;
+}
+
+
+.experience-header {
+    font-style: italic;
+    width: 400px;
+    padding-right: 10px;
+    display: flex;
+    align-items: flex-start;
+   
+}
+
+
+.experience-container {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+.job {
+    margin-bottom: 50 px;
+}
+
+
+.job strong {
+    font-weight: bold;
+}
+
+
+.job p {
+    margin: 5px 0;
+    text-align: justify;
+}
+
+
+/*=======================================================  */
+.keyskills-section {
+    display: flex;
+    border-top: 3px solid black;
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+    align-items: flex-start;
+}
+
+
+.keyskills-header {
+    font-style: italic;
+    width: 140px;
+    padding-right: 10px;
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.keyskills-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+
+
+.keyskills-container p {
+    margin: 0;
+    padding: 5px;
+}
+
+
+/*=======================================================*/
+
+
+
+
+.education-section{
+    display: flex;
+    border-top: 1px solid black;
+   
+    padding: 10px 0;
+    align-items: flex-start;
+
+
+}
+
+
+.education-header {
+    font-style: italic;
+    width: 145px;
+    padding-right: 10px;
+    display: flex;
+    align-items: flex-start;
+}
+.education-container{
+    display: flex;
+    flex-direction: column;
+}
+.college{
+    margin: 1px 0
+ 
+
+
+}
